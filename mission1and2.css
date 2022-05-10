@@ -1,0 +1,71 @@
+body {
+    font-family: "helvetica";
+    background-color: #2e4053;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin: -35px 10px;
+    padding: 10px 15px;
+
+}
+
+#logo {
+    width: 100%;
+    margin: -70px 100px;
+    justify-content: flex-end;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#photo {
+    width: 35%;
+    margin: 100px 100px;
+}
+
+#content {
+    width: 65%;
+    margin: 30px 100px;
+    text-align: start;
+
+}
+
+.mainpara {
+    width: 80%;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 30px;
+}
+
+#engine {
+    line-height: 20px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2a2534;
+}
+/*navbar a means a tags in navbar only affected*/
+.navbar a {
+    color: white;
+    padding: 14px 135px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
