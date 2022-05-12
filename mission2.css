@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    font-family: Helvetica;
+    margin: 0%;
+}
+
+.navbar {
+    display: flex;
+    background-color: #1f1f1f;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.navbar a {
+    color: #cbcbcb;
+    padding: 22px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #6b6b6b;
+
+}
+/*
+.photoheader img{
+    display: flex;
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 100%; 
+}
+*/
+
+.photoheader:hover {
+
+    content: "THE M4"; 
+    
+    color: #cbcbcb;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    font-size: 40px;
+    
+    background: black;
+    
+    /* width: 100%;
+    
+    height: 100%;
+    
+    position: absolute;
+    
+    top: 0;
+    
+    left: 0; 
+    
+    opacity: 0; */
+    
+    transition: .5s ease;
+    
+    /* border: 4px red solid; */
+    
+    opacity: .3;
+    
+    }
+
+.movie {
+    background: #1f1f1f;
+}
+/*
+.section {
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left1 {
+    left: 0;
+    background-color: #cbcbcb;
+    text-align: center;
+    border-color: #1f1f1f;
+    border-style:solid;
+}
+
+.right1 {
+    right: 0;
+    background-color: #cbcbcb;
+    text-align: center;
+    border-color: #1f1f1f;
+    border-style: solid;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+/*
+.split left1 {
+    flex: 50%;
+    justify-content: flex-start;
+    background-color: #cbcbcb;
+    padding: 20px;
+}
+
+.split right1 {
+    flex: 50%;
+    justify-content: flex-end;
+    background-color: #cbcbcb;
+    padding: 20px;
+}
+*/
+/*
+.photoheader:hover::after {
+    opacity: .3;
+}
+
+/*
+.header {
+    padding: 60px;
+    text-align: center;
+    background-color: #565656;
+    
+} 
+*/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar, .section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        font-size: 12px;
+    }
+}
