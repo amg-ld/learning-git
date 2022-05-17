@@ -1,0 +1,9 @@
+/* need to declare variables usinf const
+or let
+
+use of functions use of document.getelement body
+use of events on click
+use either a loop or arathmatic and comparative operator
+
+use github
+*/
